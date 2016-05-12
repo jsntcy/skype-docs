@@ -1,19 +1,28 @@
 {
-    "build_entry_point": "",
-    "need_generate_pdf": false,
-    "git_repository_url_open_to_public_contributors": "",
-    "docsets_to_publish": [
-        {
-            "docset_name": "SkypeSDK",
-            "build_output_subfolder": "Skype",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "true",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-        }
-    ],
-    "notification_subscribers": ["johnau@microsoft.com","ritaylor@microsoft.com","srividhc@microsoft.com"],
-    "branches_to_filter": [""]
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
+  "docsets_to_publish": [
+    {
+      "docset_name": "SkypeSDK",
+      "build_source_folder": "SkypeSDK-jsntcy",
+      "build_output_subfolder": "SkypeSDK-jsntcy",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs"
+    }
+  ],
+  "notification_subscribers": [
+    "johnau@microsoft.com",
+    "ritaylor@microsoft.com",
+    "srividhc@microsoft.com"
+  ],
+  "branches_to_filter": [
+    ""
+  ],
+  "git_repository_url_open_to_public_contributors": "",
+  "skip_source_output_uploading": false
 }
