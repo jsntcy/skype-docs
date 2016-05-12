@@ -1,0 +1,4 @@
+[submodule "_themes"]
+	path = _themes
+	url = https://github.com/Microsoft/templates.docs.msft
+	branch = master
