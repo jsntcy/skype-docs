@@ -5,6 +5,7 @@
     "docsets_to_publish": [
         {
             "docset_name": "SkypeSDK",
+            "build_source_folder": "skype", 
             "build_output_subfolder": "TestSkype",
             "locale": "en-us",
             "version": 0,
